@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Private Journal Editor</title>
+  <link rel="stylesheet" href="css/new-style.css">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="journal-admin"><span class="case-kicker">Private utility / local browser only</span><h1>Write a journal entry.</h1><p class="admin-warning">This page is intentionally unlinked. Entries are saved in this browser and appear on the journal archive after publishing. It is not an authentication system.</p><form id="journalAdminForm"><label>Entry label<input name="label" placeholder="Entry 08" required></label><label>Title<input name="title" placeholder="What did I notice?" required></label><label>Date or sequence<input name="date" placeholder="08 / 08" required></label><label>Tag<input name="tag" placeholder="playtest / insight" required></label><label>Short note<textarea name="excerpt" rows="4" placeholder="The note that appears in the archive." required></textarea></label><div class="admin-actions"><button class="btn btn-primary" type="submit">PUBLISH ENTRY</button><button class="btn btn-secondary" type="button" id="clearEntries">CLEAR LOCAL ENTRIES</button></div></form><p id="adminStatus" role="status"></p><a class="case-back-link" href="journal.html">View journal archive →</a></main>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('journalAdminForm');
+  const status = document.getElementById('adminStatus');
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    const data = Object.fromEntries(new FormData(form));
+    const entries = JSON.parse(localStorage.getItem('advaitJournalEntries') || '[]');
+    entries.unshift(data);
+    localStorage.setItem('advaitJournalEntries', JSON.stringify(entries));
+    status.textContent = 'Published locally. It will appear in the journal archive on this browser.';
+    form.reset();
+  });
+  document.getElementById('clearEntries').addEventListener('click', () => {
+    localStorage.removeItem('advaitJournalEntries');
+    status.textContent = 'Local entries cleared.';
+  });
+});
+</script>
+</body>
+</html>

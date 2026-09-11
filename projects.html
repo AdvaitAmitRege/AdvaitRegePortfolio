@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Game Design Journal</title>
+    <link rel="stylesheet" href="css/new-style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="projects-index">
+    <!-- Animated background elements -->
+    <div class="background-elements">
+        <div class="element circle"></div>
+        <div class="element triangle"></div>
+        <div class="element square"></div>
+        <div class="element circle large"></div>
+        <div class="element triangle large"></div>
+        <div class="element square large"></div>
+    </div>
+
+    <!-- Interactive cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- Header with navigation -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo"><a href="index.html#home" class="logo-lockup"><span class="logo-text">Advait Rege</span><span class="logo-subtitle">Game Design Journal</span></a></div>
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a href="index.html#about" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item"><a href="index.html#journal" class="nav-link">JOURNAL</a></li>
+                        <li class="nav-item"><a href="index.html#projects" class="nav-link active" aria-current="page">PROJECTS</a></li>
+                        <li class="nav-item"><a href="resume.html" class="nav-link">RESUME</a></li>
+                        <li class="nav-item"><a href="index.html#contact" class="nav-link">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="section-header">
+                <h2 class="section-title">ALL PROJECTS</h2>
+                <div class="section-line"></div>
+            </div>
+            <!-- Category Selector: Unique Initializing Style -->
+            <div class="category-selector-init">
+                <div class="init-title"><span class="init-dot"></span> Filter projects</div>
+                <div class="category-options">
+                    <button class="category-btn active" data-category="all">ALL</button>
+                    <button class="category-btn" data-category="level">Level Design</button>
+                    <button class="category-btn" data-category="entire">Entire Game Projects</button>
+                </div>
+            </div>
+            <div class="projects-content">
+                <div class="project-grid">
+                    <div class="project-card" data-category="entire">
+                        <div class="project-image">
+                            <img src="assets/images/TheFleshboundCurse/TFC_1.jpg" alt="The Fleshbound Curse">
+                            <div class="project-overlay">
+                                <h3>The Fleshbound Curse</h3>
+                                <p>An open-world RPG with over 500,000 downloads</p>
+                                <a href="Projects/TheFleshboundCurse.html" class="btn btn-project btn-small">VIEW PROJECT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="level">
+                        <div class="project-image">
+                            <img src="assets/images/TrainSim/TS_1.jpg" alt="Railway Simulator">
+                            <div class="project-overlay">
+                                <h3>Railway Simulator</h3>
+                                <p>A realistic train simulation game</p>
+                                <a href="Projects/Railway-Simulator.html" class="btn btn-project btn-small">VIEW PROJECT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="level">
+                        <div class="project-image">
+                            <img src="assets/images/FPS/FPS_1.jpg" alt="FPS Shooter">
+                            <div class="project-overlay">
+                                <h3>FPS Shooter</h3>
+                                <p>A fast-paced first-person shooter game</p>
+                                <a href="Projects/FPS-Shooter.html" class="btn btn-project btn-small">VIEW PROJECT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="entire">
+                        <div class="project-image">
+                            <img src="assets/images/Lab1995/Lab1995_0.jpg" alt="Lab-1995">
+                            <div class="project-overlay">
+                                <h3>Lab-1995</h3>
+                                <p>Upcoming psychological horror game on Steam</p>
+                                <a href="Projects/lab-1995.html" class="btn btn-project btn-small">VIEW PROJECT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="entire">
+                        <div class="project-image">
+                            <img src="assets/images/TheWrongFloor/TWF_1.png" alt="The Wrong Floor">
+                            <div class="project-overlay">
+                                <h3>The Wrong Floor</h3>
+                                <p>Psychological anomaly horror game completed in under 72 hours</p>
+                                <a href="Projects/the-wrong-floor.html" class="btn btn-project btn-small">VIEW PROJECT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Advait Rege. All rights reserved.</p>
+                <p>Designed and developed for thoughtful play.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/new-interactive.js"></script>
+    <script src="js/scroll-fadein.js"></script>
+</body>
+</html>

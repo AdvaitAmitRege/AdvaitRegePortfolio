@@ -1,0 +1,50 @@
+// ... existing code ...
+.project-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin: 60px 0;
+}
+.project-card {
+  background: rgba(20, 20, 40, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 0 30px #a56fff, 0 0 10px #222 inset;
+  border: 2px solid #a56fff;
+  padding: 32px 24px;
+  width: 320px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: #eee;
+  position: relative;
+}
+.project-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 50px #d1aaff, 0 0 20px #a56fff inset;
+}
+.project-card h2 {
+  color: #a56fff;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.project-card p {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+.project-card a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 8px;
+  color: #fff;
+  background: #a56fff;
+  padding: 8px 18px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 0 10px #a56fff;
+  transition: background 0.2s, color 0.2s;
+}
+.project-card a:hover {
+  background: #d1aaff;
+  color: #222;
+}
+// ... existing code ...
