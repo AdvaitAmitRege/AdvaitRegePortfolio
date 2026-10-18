@@ -163,7 +163,7 @@
           "text": "Lab-1995 is still in development. This page will grow alongside the project, with additional breakdowns added as individual mechanics, levels, and implementation decisions are ready to document."
         }
       ],
-      "sourcePage": "Projects/lab-1995.html",
+      "sourcePage": "legacy-project-pages/lab-1995.html",
       "tags": [
         "Psychological Horror",
         "Unreal Engine 5",
@@ -319,7 +319,7 @@
           "text": "The most useful takeaway is not simply speed; it is the ability to constrain a project, prioritize its central idea, and bring a solo project to completion under a strict deadline."
         }
       ],
-      "sourcePage": "Projects/the-wrong-floor.html",
+      "sourcePage": "legacy-project-pages/the-wrong-floor.html",
       "tags": [
         "Horror",
         "Game Jam",
@@ -498,7 +498,7 @@
           "text": "The next useful step is structured playtesting: verify that the movement rules are understood consistently, check whether turns stay engaging with four players, and adjust the board or rules where players hesitate. I am keeping those as validation goals rather than claiming balance has already been proven."
         }
       ],
-      "sourcePage": "Projects/four-player-circular-chess.html",
+      "sourcePage": "legacy-project-pages/four-player-circular-chess.html",
       "tags": [
         "Board Game Design",
         "Physical Prototyping",
@@ -654,7 +654,7 @@
           "text": "A deeper breakdown could include top-down layouts, route choices, player guidance, key landmarks, and the specific design differences between the two levels. These details can be added as supporting materials are available."
         }
       ],
-      "sourcePage": "Projects/Railway-Simulator.html",
+      "sourcePage": "legacy-project-pages/Railway-Simulator.html",
       "tags": [
         "Simulation",
         "Level Design",
@@ -805,7 +805,7 @@
           "text": "If available, top-down layouts and annotated screenshots can show the intent behind individual spaces, how they connect, and how each level supports the story-mode structure."
         }
       ],
-      "sourcePage": "Projects/FPS-Shooter.html",
+      "sourcePage": "legacy-project-pages/FPS-Shooter.html",
       "tags": [
         "FPS",
         "Level Design",
@@ -931,7 +931,7 @@
           "text": "This project captures the transition from learning an unfamiliar engine to actively using it. It is presented as a learning project, not as a claim of production-level expertise at the time."
         }
       ],
-      "sourcePage": "Projects/TheFleshboundCurse.html",
+      "sourcePage": "legacy-project-pages/TheFleshboundCurse.html",
       "tags": [
         "Unreal Engine 5",
         "Solo Development",
