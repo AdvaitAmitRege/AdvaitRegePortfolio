@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin.html
+Disallow: /project-admin.html
+Disallow: /journal-admin.html
+Disallow: /recovery-backup/
+Sitemap: https://advaitrege.design/sitemap.xml

@@ -1,0 +1,10 @@
+title: Advait Rege Portfolio
+url: https://advaitrege.design
+permalink: pretty
+exclude:
+  - GUIDE.md
+  - README.md
+  - WEBSITE-QA-CHANGELOG.md
+  - WEBSITE-IMPROVEMENTS.md
+  - SITE-RECOVERY-REPORT.md
+  - LINKEDIN-TIMELINE-NOTES.md

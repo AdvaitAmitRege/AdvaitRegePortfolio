@@ -1,33 +1,52 @@
+/* Optional local preview overrides for legacy standalone case-study pages.
+   Published, portable project content is now managed through data/site.json and Studio. */
 document.addEventListener('DOMContentLoaded', () => {
+  let allSaved = {};
+  try {
+    const parsed = JSON.parse(localStorage.getItem('advaitProjects') || '{}');
+    if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) allSaved = parsed;
+  } catch (error) {
+    console.warn('Ignoring invalid local project overrides.', error);
+  }
   const projectId = document.body.dataset.project;
-  const saved = JSON.parse(localStorage.getItem('advaitProjects') || '{}')[projectId];
-  if (!saved) return;
+  const saved = projectId ? allSaved[projectId] : null;
+  if (!saved || typeof saved !== 'object') return;
 
-  const setText = (selector, value) => { const element = document.querySelector(selector); if (element && value) element.textContent = value; };
-  setText('.case-study-hero h1', saved.title);
-  setText('.case-vision-line', saved.visionLine);
+  const setText = (element, value) => {
+    if (element && value !== undefined && value !== null && String(value) !== '') {
+      element.textContent = String(value);
+    }
+  };
+  setText(document.querySelector('.case-study-hero h1'), saved.title);
+  setText(document.querySelector('.case-vision-line'), saved.visionLine);
   document.querySelectorAll('.case-facts dd').forEach((element, index) => {
-    const value = [saved.genre, saved.role, saved.engine, saved.duration, saved.platform][index];
-    if (value) element.textContent = value;
+    setText(element, [saved.genre, saved.role, saved.engine, saved.duration, saved.platform][index]);
   });
-  const sections = document.querySelectorAll('.case-section');
-  setText('.case-vision h2', saved.visionTitle);
-  setText('.case-vision > p', saved.vision);
-  setText('.case-challenge h2', saved.challengeTitle);
-  setText('.case-challenge > p', saved.challenge);
-  saved.responsibilities?.forEach((item, index) => {
+
+  setText(document.querySelector('.case-vision h2'), saved.visionTitle);
+  setText(document.querySelector('.case-vision > p'), saved.vision);
+  setText(document.querySelector('.case-challenge h2'), saved.challengeTitle);
+  setText(document.querySelector('.case-challenge > p'), saved.challenge);
+
+  (Array.isArray(saved.responsibilities) ? saved.responsibilities : []).forEach((item, index) => {
     const card = document.querySelectorAll('.responsibility-grid article')[index];
-    if (card) { setText('h3', item.title); setText('p', item.description); }
+    if (!card || !item) return;
+    setText(card.querySelector('h3'), item.title);
+    setText(card.querySelector('p'), item.description);
   });
-  saved.process?.forEach((item, index) => {
+  (Array.isArray(saved.process) ? saved.process : []).forEach((item, index) => {
     const stage = document.querySelectorAll('.process-line > div')[index];
-    if (stage) { setText('b', item.title); setText('span', item.description); }
+    if (!stage || !item) return;
+    setText(stage.querySelector('b'), item.title);
+    setText(stage.querySelector('span'), item.description);
   });
-  const failure = sections[5];
-  if (failure && saved.failure) setText('.reflection-grid > div:first-child p', saved.failure);
-  if (failure && saved.playtesting) setText('.feedback-note', saved.playtesting);
-  const production = sections[6];
-  if (production && saved.production) { const paragraph = production.querySelector('p'); if (paragraph) paragraph.textContent = saved.production; }
-  saved.lessons?.forEach((lesson, index) => setText(`.lesson-list p:nth-child(${index + 1})`, lesson));
-  setText('.reflection-section > p', saved.reflection);
+
+  const sections = document.querySelectorAll('.case-section');
+  if (sections[5] && saved.failure) setText(sections[5].querySelector('.reflection-grid > div:first-child p'), saved.failure);
+  if (saved.playtesting) setText(document.querySelector('.feedback-note'), saved.playtesting);
+  if (sections[6] && saved.production) setText(sections[6].querySelector('p'), saved.production);
+  (Array.isArray(saved.lessons) ? saved.lessons : []).forEach((lesson, index) => {
+    setText(document.querySelectorAll('.lesson-list p')[index], lesson);
+  });
+  setText(document.querySelector('.reflection-section > p'), saved.reflection);
 });

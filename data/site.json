@@ -1,0 +1,1336 @@
+{
+  "c": {
+    "accent": "#C86A3A",
+    "sec": "#2E5E4E",
+    "bg": "#F6F4EF",
+    "text": "#1E1E1E",
+    "muted": "#58677C",
+    "surface": "#FFFDFC"
+  },
+  "hf": "Clash Display",
+  "bf": "Sora",
+  "hand": "Caveat",
+  "fs": 100,
+  "journal": [
+    {
+      "label": "Design Note 01",
+      "date": "Field Notes",
+      "title": "Learn by building, not only by watching",
+      "excerpt": "A project turns vague learning into specific questions.",
+      "tag": "Learning Process",
+      "more": "When I started learning Unreal Engine 5, I watched one or two introductory tutorials to understand the editor, then began a solo project. Building exposed the exact problems I needed to solve next. The lesson is not to avoid tutorials; it is to use them with a concrete purpose and apply what I learn immediately."
+    },
+    {
+      "label": "Design Note 02",
+      "date": "Field Notes",
+      "title": "A deadline is a scope tool",
+      "excerpt": "The Wrong Floor taught me to protect the central idea under time pressure.",
+      "tag": "Production",
+      "more": "Approaching The Wrong Floor as a game-jam project helped turn a university assignment into a bounded production challenge. Under 72 hours, prioritization is part of the design: every additional feature takes time away from completing and polishing the experience."
+    },
+    {
+      "label": "Design Note 03",
+      "date": "Level Design",
+      "title": "A vista gives the player a reason to move",
+      "excerpt": "Abandoned Temple was a short exercise in making the destination and route readable.",
+      "tag": "Level Design",
+      "more": "The Abandoned Temple task required a clear vista and a golden path using supplied elements. The time limit made it useful to focus on the relationship between the focal point, the route, and what the player can understand from the space."
+    }
+  ],
+  "projects": [
+    {
+      "id": "lab-1995",
+      "title": "Lab-1995",
+      "tagline": "An ongoing solo psychological-horror project developed while learning Unreal Engine 5 through hands-on production.",
+      "cover": "assets/images/Lab1995/Lab1995_0.webp",
+      "banner": {
+        "src": "assets/images/Lab1995/Lab1995_0.webp",
+        "alt": "Lab-1995 banner",
+        "height": 520,
+        "scale": 100,
+        "fit": "cover",
+        "position": "center"
+      },
+      "genre": "Psychological Horror",
+      "role": "Solo Game Designer / Developer",
+      "engine": "Unreal Engine 5",
+      "duration": "Ongoing solo project",
+      "platform": "PC / Steam",
+      "cat": "entire",
+      "vision": "",
+      "challenge": "Build an original game independently while learning the engine and making practical design and implementation decisions along the way.",
+      "solution": "Use the project itself as a learning framework: develop the game, identify gaps in knowledge, and apply new skills directly to the work.",
+      "outcome": "An ongoing Unreal Engine 5 project. The work and its systems continue to evolve.",
+      "lessons": [
+        "Building a real project creates concrete questions that passive tutorial-watching cannot answer on its own.",
+        "Solo development requires balancing learning, implementation, and scope."
+      ],
+      "gallery": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "A solo project built by learning through making."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Lab-1995 is an ongoing psychological-horror game I am developing on my own in Unreal Engine 5. I have been learning the engine alongside development, using the project to turn new knowledge into working features rather than treating learning and production as separate phases."
+        },
+        {
+          "type": "stat-grid",
+          "spacing": 24,
+          "reveal": "fade",
+          "items": [
+            {
+              "label": "Development",
+              "value": "Ongoing",
+              "context": "Solo project"
+            },
+            {
+              "label": "Engine",
+              "value": "UE5",
+              "context": "Learning alongside production"
+            },
+            {
+              "label": "Ownership",
+              "value": "Solo",
+              "context": "Design and implementation"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The approach: learn what the project needs next."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Rather than waiting until I felt fully prepared, I began building and learned the tools and systems as the project demanded them. That approach makes each new topic immediately useful, while also exposing the trade-offs involved in making a game independently."
+        },
+        {
+          "type": "design-note",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "Learning through implementation",
+          "text": "Each development problem gives me a specific question to investigate, test, and apply to the project.",
+          "takeaway": "The project is both a game in development and a practical learning process."
+        },
+        {
+          "type": "carousel",
+          "spacing": 24,
+          "reveal": "fade",
+          "eyebrow": "Project visuals",
+          "heading": "Selected development imagery",
+          "images": [
+            {
+              "src": "assets/images/Lab1995/Lab1995_0.webp",
+              "alt": "Lab-1995 project image",
+              "caption": "Project visual"
+            },
+            {
+              "src": "assets/images/Lab1995/L_1.jpg",
+              "alt": "Lab-1995 early level sketch",
+              "caption": "Early level sketch"
+            },
+            {
+              "src": "assets/images/Lab1995/L_2.webp",
+              "alt": "Lab-1995 environment prototype",
+              "caption": "Environment prototype"
+            }
+          ],
+          "imageHeight": 520,
+          "fit": "contain",
+          "showArrows": true,
+          "showDots": true,
+          "showCaptions": true
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Current status"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Lab-1995 is still in development. This page will grow alongside the project, with additional breakdowns added as individual mechanics, levels, and implementation decisions are ready to document."
+        }
+      ],
+      "sourcePage": "Projects/lab-1995.html",
+      "tags": [
+        "Psychological Horror",
+        "Unreal Engine 5",
+        "Solo Development",
+        "In Development"
+      ],
+      "status": "In development",
+      "year": "Ongoing",
+      "designPillars": "",
+      "gameplayLoop": "",
+      "mechanics": "",
+      "levelDesign": "",
+      "constraints": "",
+      "iterations": "",
+      "contribution": "Independently developing the project, including its design and implementation.",
+      "team": "Solo developer; developed while learning Unreal Engine 5.",
+      "results": "Ongoing. The project demonstrates an end-to-end solo development process alongside learning Unreal Engine 5.",
+      "categories": [
+        "Game Design",
+        "Gameplay Systems",
+        "Unreal Engine 5",
+        "Solo Development"
+      ]
+    },
+    {
+      "id": "the-wrong-floor",
+      "title": "The Wrong Floor",
+      "tagline": "A university project approached as a game jam—and completed in under 72 hours.",
+      "cover": "assets/images/TheWrongFloor/TWF_1.webp",
+      "banner": {
+        "src": "assets/images/TheWrongFloor/TWF_1.webp",
+        "alt": "The Wrong Floor banner",
+        "height": 520,
+        "scale": 100,
+        "fit": "cover",
+        "position": "center"
+      },
+      "genre": "Anomaly Horror",
+      "role": "Solo Developer / Game Designer",
+      "engine": "Unreal Engine 5",
+      "duration": "Under 72 hours",
+      "platform": "PC",
+      "cat": "entire",
+      "vision": "",
+      "challenge": "Deliver a coherent playable horror experience within a very short time limit, without allowing scope to overwhelm the core idea.",
+      "solution": "Treat the assignment like a game jam: prioritize the central experience, make scope decisions quickly, and focus effort on what supports the main idea.",
+      "outcome": "Completed in under 72 hours. The project became an exercise in focused scope and rapid delivery.",
+      "lessons": [
+        "A clear central idea makes time-limited decisions easier.",
+        "Finishing requires deciding what not to build.",
+        "A university brief can become a useful production constraint when treated as a delivery challenge."
+      ],
+      "gallery": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "One small project. One hard deadline."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The Wrong Floor began as a solo university project. I decided to approach it like a game jam and completed it in under 72 hours. The constraint forced me to focus on the essential experience instead of expanding the idea beyond what the available time could support."
+        },
+        {
+          "type": "stat-grid",
+          "spacing": 24,
+          "reveal": "fade",
+          "items": [
+            {
+              "label": "Time limit",
+              "value": "<72 hrs",
+              "context": "Completed within the deadline"
+            },
+            {
+              "label": "Team",
+              "value": "Solo",
+              "context": "Individual project"
+            },
+            {
+              "label": "Format",
+              "value": "Game jam",
+              "context": "Self-imposed production approach"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Designing within the constraint"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The main production challenge was deciding which parts of the experience deserved the limited time available. The approach was to protect the core concept, make decisions quickly, and avoid adding work that did not help deliver a complete project."
+        },
+        {
+          "type": "design-note",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "Scope is a design decision",
+          "text": "Under a short deadline, every additional feature competes with finishing, testing, and polishing the central experience.",
+          "takeaway": "The project was completed in under 72 hours."
+        },
+        {
+          "type": "carousel",
+          "spacing": 24,
+          "reveal": "fade",
+          "eyebrow": "Project screenshots",
+          "heading": "Selected visuals from The Wrong Floor",
+          "images": [
+            {
+              "src": "assets/images/TheWrongFloor/TWF_1.webp",
+              "alt": "The Wrong Floor gameplay screenshot",
+              "caption": "Gameplay view"
+            },
+            {
+              "src": "assets/images/TheWrongFloor/TWF_2.webp",
+              "alt": "The Wrong Floor environment screenshot",
+              "caption": "Environment"
+            },
+            {
+              "src": "assets/images/TheWrongFloor/TWF_3.webp",
+              "alt": "The Wrong Floor project screenshot",
+              "caption": "Project detail"
+            },
+            {
+              "src": "assets/images/TheWrongFloor/TWF_4.webp",
+              "alt": "The Wrong Floor gameplay scene",
+              "caption": "Gameplay scene"
+            }
+          ],
+          "imageHeight": 520,
+          "fit": "contain",
+          "showArrows": true,
+          "showDots": true,
+          "showCaptions": true
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "What this project demonstrates"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The most useful takeaway is not simply speed; it is the ability to constrain a project, prioritize its central idea, and bring a solo project to completion under a strict deadline."
+        }
+      ],
+      "sourcePage": "Projects/the-wrong-floor.html",
+      "tags": [
+        "Horror",
+        "Game Jam",
+        "Rapid Prototyping",
+        "Unreal Engine 5"
+      ],
+      "status": "Completed project",
+      "year": "Completed",
+      "designPillars": "",
+      "gameplayLoop": "",
+      "mechanics": "",
+      "levelDesign": "",
+      "constraints": "",
+      "iterations": "",
+      "contribution": "Solo development under a strict deadline.",
+      "team": "Started as a solo university project and approached as a game-jam challenge.",
+      "results": "Completed within 72 hours.",
+      "categories": [
+        "Game Design",
+        "Level Design",
+        "Unreal Engine 5",
+        "Rapid Prototyping"
+      ]
+    },
+    {
+      "id": "four-player-circular-chess",
+      "title": "Four-Player Circular Chess",
+      "tagline": "A physical tabletop chess variant exploring how four-player movement and a circular board shape strategic choices.",
+      "cover": "assets/images/CircularChess/circular-chess-play-setup.webp",
+      "banner": {
+        "src": "assets/images/CircularChess/circular-chess-rules-layout.jpg",
+        "alt": "Four-player circular chess board design",
+        "height": 520,
+        "scale": 100,
+        "fit": "contain",
+        "position": "center"
+      },
+      "genre": "Tabletop Strategy / Board Game",
+      "role": "Game Designer / Physical Prototyper",
+      "engine": "Physical prototype + digital layout",
+      "duration": "Prototype developed in 2025",
+      "platform": "Physical tabletop game",
+      "cat": "entire",
+      "vision": "Adapt the familiar strategic language of chess into a circular board where four players share the same space and must read threats from more than one direction.",
+      "challenge": "Create a board that is easy to read at a glance while giving four players distinct starting zones and enough space to understand movement and threats.",
+      "solution": "Designed a circular, color-coded board layout, documented the rules visually, and built a physical prototype with handmade pieces to make the concept tangible.",
+      "outcome": "A photographed physical prototype with a digital board layout, rule reference, and four color-coded sets of pieces. Further balancing and rule validation can be documented as the design develops.",
+      "lessons": [
+        "Board readability matters: player zones, piece identity, and movement paths need to remain clear from different seating positions.",
+        "A physical prototype helps reveal practical issues of scale, contrast, piece handling, and table space earlier than a digital mock-up alone."
+      ],
+      "gallery": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "A familiar strategy game, rearranged around a shared centre."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Four-Player Circular Chess is a tabletop board-game design project built around a circular board and four color-coded player sides. The project combines a digital layout with a handmade physical prototype, including the board surface and individual pieces."
+        },
+        {
+          "type": "stat-grid",
+          "spacing": 24,
+          "reveal": "fade",
+          "items": [
+            {
+              "label": "Players",
+              "value": "4",
+              "context": "Four color-coded sides"
+            },
+            {
+              "label": "Format",
+              "value": "Tabletop",
+              "context": "Physical prototype"
+            },
+            {
+              "label": "Design focus",
+              "value": "Readability",
+              "context": "Board, pieces, and rules"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Design challenge"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "A circular layout changes how players scan the board. With four sides in play, the visual design needs to distinguish each player clearly and keep the centre, rings, and movement spaces legible without relying on a conventional rectangular grid."
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "From layout to physical prototype"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "I developed the board graphic, arranged the player zones, prepared a visual rules reference, and made the physical version by hand. The pieces were formed and painted in separate colors so each side could be identified quickly during setup."
+        },
+        {
+          "type": "design-note",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "Prototype-first design",
+          "text": "The board and pieces are physical rather than just a screen mock-up, making scale, contrast, and handling part of the design process.",
+          "takeaway": "A prototype is useful when it lets you inspect the real object players will use."
+        },
+        {
+          "type": "carousel",
+          "spacing": 24,
+          "reveal": "fade",
+          "eyebrow": "Design process",
+          "heading": "Board, rules, and physical build",
+          "images": [
+            {
+              "src": "assets/images/CircularChess/circular-chess-physical-board.jpg",
+              "alt": "Handmade four-player circular chess board prototype on a desk",
+              "caption": "Physical board prototype and hand-painted layout"
+            },
+            {
+              "src": "assets/images/CircularChess/circular-chess-rules-layout.jpg",
+              "alt": "Digital circular board layout with four color-coded player zones and printed rules",
+              "caption": "Digital board layout and rules reference"
+            },
+            {
+              "src": "assets/images/CircularChess/circular-chess-handmade-board.jpg",
+              "alt": "Designer sketching and lettering the circular chess board by hand",
+              "caption": "Transferring the design onto the physical board"
+            },
+            {
+              "src": "assets/images/CircularChess/circular-chess-board-prototype.jpg",
+              "alt": "Circular chess board layout displayed on a laptop beside handmade game pieces",
+              "caption": "Digital layout alongside the physical pieces"
+            },
+            {
+              "src": "assets/images/CircularChess/circular-chess-piece-painting.webp",
+              "alt": "Handmade game pieces being painted in four player colors",
+              "caption": "Making and color-coding the pieces"
+            },
+            {
+              "src": "assets/images/CircularChess/circular-chess-play-setup.webp",
+              "alt": "Four-player circular chess prototype arranged with red, yellow, green and blue pieces",
+              "caption": "Four-player setup with color-coded pieces"
+            }
+          ],
+          "imageHeight": 680,
+          "fit": "contain",
+          "showArrows": true,
+          "showDots": true,
+          "showCaptions": true,
+          "autoScroll": false,
+          "animation": "fade"
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "What I would validate next"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The next useful step is structured playtesting: verify that the movement rules are understood consistently, check whether turns stay engaging with four players, and adjust the board or rules where players hesitate. I am keeping those as validation goals rather than claiming balance has already been proven."
+        }
+      ],
+      "sourcePage": "Projects/four-player-circular-chess.html",
+      "tags": [
+        "Board Game Design",
+        "Physical Prototyping",
+        "Rules Design",
+        "Tabletop Strategy",
+        "2025"
+      ],
+      "status": "Prototype",
+      "year": "2025",
+      "designPillars": "Board readability; four-player interaction; physical usability",
+      "gameplayLoop": "Plan a move; evaluate threats across the circular board; move a piece; respond to the other players.",
+      "mechanics": "Four player zones, circular board spaces, color-coded pieces. Specific movement and victory rules should be treated as defined by the project rules sheet and validated through playtesting.",
+      "levelDesign": "Circular layout with a shared centre and four distinct player approaches.",
+      "constraints": "Legibility from different seating positions; distinguishable player colors; practical size and handling of handmade pieces.",
+      "iterations": "Digital layout, physical board lettering, handmade pieces, and a photographed four-player setup.",
+      "contribution": "Designed the board concept and visual layout, prepared a rules reference, and produced the physical prototype and pieces.",
+      "team": "Personal project; solo design and prototyping.",
+      "results": "A tangible prototype documented through process photographs. Further playtesting and rules balancing remain future validation work.",
+      "categories": [
+        "Board Game Design",
+        "Game Design",
+        "Physical Prototyping",
+        "Tabletop Games"
+      ]
+    },
+    {
+      "id": "railway-simulator",
+      "title": "Railway Simulator",
+      "tagline": "Internship level-design work: two levels planned around 30–40 minutes of gameplay each.",
+      "cover": "assets/images/TrainSim/TS_1.webp",
+      "banner": {
+        "src": "assets/images/TrainSim/TS_1.webp",
+        "alt": "Railway Simulator banner",
+        "height": 520,
+        "scale": 100,
+        "fit": "cover",
+        "position": "center"
+      },
+      "genre": "Simulation",
+      "role": "Level Designer (Internship)",
+      "engine": "Unreal Engine 5",
+      "duration": "2 levels · 30–40 minutes intended gameplay per level",
+      "platform": "PC",
+      "cat": "level",
+      "vision": "",
+      "challenge": "Create two levels for a railway simulator, with each level targeting a substantial 30–40 minute gameplay experience.",
+      "solution": "Contributed as a level designer, focusing on the design and construction of two distinct levels for the project.",
+      "outcome": "Two levels developed as part of the internship project. The 30–40 minute duration describes the design target.",
+      "lessons": [
+        "Level design must consider the duration and pacing of the intended player experience.",
+        "A level’s structure should be judged against the goals of the overall project."
+      ],
+      "gallery": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Two levels designed around a sustained journey."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Railway Simulator was an internship project where I worked as a level designer. My contribution was the design of two levels, each targeting approximately 30–40 minutes of gameplay."
+        },
+        {
+          "type": "stat-grid",
+          "spacing": 24,
+          "reveal": "fade",
+          "items": [
+            {
+              "label": "Role",
+              "value": "Level Designer",
+              "context": "Internship project"
+            },
+            {
+              "label": "Levels",
+              "value": "2",
+              "context": "Designed"
+            },
+            {
+              "label": "Target playtime",
+              "value": "30–40 min",
+              "context": "Per level; design target"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "My contribution"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "My responsibility was focused on level design rather than ownership of the entire simulator. The two levels were planned to support a longer play session, and the screenshots below show selected views of the environments I worked on."
+        },
+        {
+          "type": "carousel",
+          "spacing": 24,
+          "reveal": "fade",
+          "eyebrow": "Level-design work",
+          "heading": "Selected Railway Simulator level images",
+          "images": [
+            {
+              "src": "assets/images/TrainSim/TS_1.webp",
+              "alt": "Railway Simulator level screenshot",
+              "caption": "Level view"
+            },
+            {
+              "src": "assets/images/TrainSim/TS_4.jpg",
+              "alt": "Railway Simulator environment screenshot",
+              "caption": "Environment view"
+            },
+            {
+              "src": "assets/images/TrainSim/TS_6.jpg",
+              "alt": "Railway Simulator level image",
+              "caption": "Level detail"
+            },
+            {
+              "src": "assets/images/TrainSim/TS_8.jpg",
+              "alt": "Railway Simulator project image",
+              "caption": "Project environment"
+            }
+          ],
+          "imageHeight": 520,
+          "fit": "contain",
+          "showArrows": true,
+          "showDots": true,
+          "showCaptions": true
+        },
+        {
+          "type": "design-note",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "Design target, not a claimed result",
+          "text": "Each level was intended to support around 30–40 minutes of gameplay.",
+          "takeaway": "The portfolio describes the target duration accurately rather than claiming a verified completion time."
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "What I would document next"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "A deeper breakdown could include top-down layouts, route choices, player guidance, key landmarks, and the specific design differences between the two levels. These details can be added as supporting materials are available."
+        }
+      ],
+      "sourcePage": "Projects/Railway-Simulator.html",
+      "tags": [
+        "Simulation",
+        "Level Design",
+        "Internship",
+        "Unreal Engine 5"
+      ],
+      "status": "Internship project",
+      "year": "Internship",
+      "designPillars": "",
+      "gameplayLoop": "",
+      "mechanics": "",
+      "levelDesign": "",
+      "constraints": "",
+      "iterations": "",
+      "contribution": "Designed two levels. Each level targeted approximately 30–40 minutes of gameplay.",
+      "team": "Worked as a level designer on an internship project.",
+      "results": "Two levels designed; the stated playtime is the target per level, not a verified playtest result.",
+      "categories": [
+        "Level Design",
+        "Internship",
+        "Unreal Engine 5"
+      ]
+    },
+    {
+      "id": "fps-shooter",
+      "title": "FPS Shooter",
+      "tagline": "Level-design internship work across six to seven distinct levels for a story-mode FPS.",
+      "cover": "assets/images/FPS/FPS_1.webp",
+      "banner": {
+        "src": "assets/images/FPS/FPS_1.webp",
+        "alt": "FPS Shooter banner",
+        "height": 520,
+        "scale": 100,
+        "fit": "cover",
+        "position": "center"
+      },
+      "genre": "First-Person Shooter",
+      "role": "Level Designer (Internship)",
+      "engine": "Unity",
+      "duration": "6–7 distinct levels",
+      "platform": "PC",
+      "cat": "level",
+      "vision": "",
+      "challenge": "Contribute distinct levels to a story-mode first-person shooter, supporting the progression of a larger game.",
+      "solution": "Worked on the level-design side of the project, creating and shaping six to seven different levels.",
+      "outcome": "Level-design contribution across six to seven distinct story-mode levels.",
+      "lessons": [
+        "A multi-level project requires each space to serve a clear role in the overall progression.",
+        "Portfolio documentation should make individual contributions distinguishable from the team’s work."
+      ],
+      "gallery": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Level design across a story-mode FPS."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "During my internship, I worked as a level designer on a story-mode first-person shooter. I contributed to six to seven distinct levels, focusing on level work within a larger team project."
+        },
+        {
+          "type": "stat-grid",
+          "spacing": 24,
+          "reveal": "fade",
+          "items": [
+            {
+              "label": "Role",
+              "value": "Level Designer",
+              "context": "Internship"
+            },
+            {
+              "label": "Levels",
+              "value": "6–7",
+              "context": "Distinct levels"
+            },
+            {
+              "label": "Game type",
+              "value": "FPS",
+              "context": "Story mode"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Selected level work"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The screenshots below provide a visual overview of selected spaces from the project. This case study focuses on my level-design contribution rather than claiming ownership of the full game or its combat systems."
+        },
+        {
+          "type": "carousel",
+          "spacing": 24,
+          "reveal": "fade",
+          "eyebrow": "Level screenshots",
+          "heading": "Selected FPS level images",
+          "images": [
+            {
+              "src": "assets/images/FPS/FPS_1.webp",
+              "alt": "FPS level screenshot",
+              "caption": "Level view"
+            },
+            {
+              "src": "assets/images/FPS/FPS_2.jpg",
+              "alt": "FPS level environment",
+              "caption": "Environment"
+            },
+            {
+              "src": "assets/images/FPS/FPS_3.webp",
+              "alt": "FPS level layout screenshot",
+              "caption": "Level composition"
+            },
+            {
+              "src": "assets/images/FPS/FPS_4.jpg",
+              "alt": "FPS game level screenshot",
+              "caption": "Gameplay space"
+            },
+            {
+              "src": "assets/images/FPS/FPS_5.jpg",
+              "alt": "FPS level detail screenshot",
+              "caption": "Level detail"
+            }
+          ],
+          "imageHeight": 520,
+          "fit": "contain",
+          "showArrows": true,
+          "showDots": true,
+          "showCaptions": true
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Further breakdown"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "If available, top-down layouts and annotated screenshots can show the intent behind individual spaces, how they connect, and how each level supports the story-mode structure."
+        }
+      ],
+      "sourcePage": "Projects/FPS-Shooter.html",
+      "tags": [
+        "FPS",
+        "Level Design",
+        "Story Mode",
+        "Internship"
+      ],
+      "status": "Internship project",
+      "year": "Internship",
+      "designPillars": "",
+      "gameplayLoop": "",
+      "mechanics": "",
+      "levelDesign": "",
+      "constraints": "",
+      "iterations": "",
+      "contribution": "Worked on six to seven distinct levels for the story mode.",
+      "team": "Worked as a level designer on an internship story-mode FPS project.",
+      "results": "Contributed level-design work across six to seven levels.",
+      "categories": [
+        "Level Design",
+        "Internship",
+        "FPS"
+      ]
+    },
+    {
+      "id": "the-fleshbound-curse",
+      "title": "The Fleshbound Curse",
+      "tagline": "My first Unreal Engine 5 project: learn the basics, start building, and learn through the work.",
+      "cover": "assets/images/TheFleshboundCurse/TFC_1.jpg",
+      "banner": {
+        "src": "assets/images/TheFleshboundCurse/TFC_1.jpg",
+        "alt": "The Fleshbound Curse banner",
+        "height": 520,
+        "scale": 100,
+        "fit": "cover",
+        "position": "center"
+      },
+      "genre": "Open World RPG",
+      "role": "Solo Game Designer / Developer",
+      "engine": "Unreal Engine 5",
+      "duration": "First Unreal Engine 5 project",
+      "platform": "PC",
+      "cat": "entire",
+      "vision": "",
+      "challenge": "As a complete beginner to Unreal Engine 5, get past the initial learning barrier and start making a real project.",
+      "solution": "Watch a small number of introductory tutorials to understand the editor and its tools, then learn by building the project independently.",
+      "outcome": "A solo project that served as a practical introduction to Unreal Engine 5 and a learning-by-doing workflow.",
+      "lessons": [
+        "Starting a project creates practical questions that make further learning more focused.",
+        "A first project can be valuable even when its primary goal is learning.",
+        "Progress comes from trying, debugging, and applying knowledge—not only consuming tutorials."
+      ],
+      "gallery": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "My first Unreal Engine 5 project."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The Fleshbound Curse was my first project in Unreal Engine 5, and I began it as a complete beginner. I watched one or two introductory tutorials to understand the editor, its windows, and its tools, then began developing the project solo."
+        },
+        {
+          "type": "design-note",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "Learn by building",
+          "text": "Instead of waiting until I had watched every tutorial, I used the project to discover what I needed to learn next.",
+          "takeaway": "The project represents my first hands-on learning experience with Unreal Engine 5."
+        },
+        {
+          "type": "carousel",
+          "spacing": 24,
+          "reveal": "fade",
+          "eyebrow": "Project visuals",
+          "heading": "Selected images from The Fleshbound Curse",
+          "images": [
+            {
+              "src": "assets/images/TheFleshboundCurse/TFC_1.jpg",
+              "alt": "The Fleshbound Curse project screenshot",
+              "caption": "Project view"
+            },
+            {
+              "src": "assets/images/TheFleshboundCurse/TFC_2.jpg",
+              "alt": "The Fleshbound Curse environment",
+              "caption": "Environment"
+            },
+            {
+              "src": "assets/images/TheFleshboundCurse/TFC_3.jpg",
+              "alt": "The Fleshbound Curse project image",
+              "caption": "Project detail"
+            },
+            {
+              "src": "assets/images/TheFleshboundCurse/TFC_4.jpg",
+              "alt": "The Fleshbound Curse screenshot",
+              "caption": "Development screenshot"
+            },
+            {
+              "src": "assets/images/TheFleshboundCurse/TFC_5.jpg",
+              "alt": "The Fleshbound Curse scene",
+              "caption": "Scene view"
+            }
+          ],
+          "imageHeight": 520,
+          "fit": "contain",
+          "showArrows": true,
+          "showDots": true,
+          "showCaptions": true
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Why this project matters"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "This project captures the transition from learning an unfamiliar engine to actively using it. It is presented as a learning project, not as a claim of production-level expertise at the time."
+        }
+      ],
+      "sourcePage": "Projects/TheFleshboundCurse.html",
+      "tags": [
+        "Unreal Engine 5",
+        "Solo Development",
+        "Learning by Doing"
+      ],
+      "status": "Learning project",
+      "year": "Early UE5 project",
+      "designPillars": "",
+      "gameplayLoop": "",
+      "mechanics": "",
+      "levelDesign": "",
+      "constraints": "",
+      "iterations": "",
+      "contribution": "Developed the project independently as a first hands-on introduction to Unreal Engine 5.",
+      "team": "Solo project.",
+      "results": "A beginner solo project used to learn by building rather than relying on extended tutorial watching.",
+      "categories": [
+        "Game Design",
+        "Unreal Engine 5",
+        "Solo Development",
+        "Learning Project"
+      ]
+    },
+    {
+      "id": "beyond-guilt",
+      "title": "Beyond Guilt",
+      "tagline": "A first-person judgment simulator where investigation, sentencing, and the state of Hell respond to the player’s choices.",
+      "cover": "assets/images/BeyondGuilt/beyond-guilt-concept.jpg",
+      "banner": {
+        "src": "assets/images/BeyondGuilt/beyond-guilt-concept.jpg",
+        "alt": "Beyond Guilt courtroom concept image from the game design document",
+        "height": 520,
+        "scale": 100,
+        "fit": "cover",
+        "position": "center"
+      },
+      "genre": "First-Person Psychological Judgment Simulator",
+      "role": "Solo Game Designer / Developer",
+      "engine": "Unity 6 (URP)",
+      "duration": "Ongoing · Demo and full release planned",
+      "platform": "Windows / planned Steam release",
+      "cat": "entire",
+      "categories": [
+        "Game Design",
+        "Unity 6",
+        "Solo Development",
+        "In Development"
+      ],
+      "tags": [
+        "Dark Fantasy",
+        "Judgment Simulator",
+        "Unity 6",
+        "Solo Development",
+        "In Development"
+      ],
+      "status": "In development",
+      "year": "Ongoing",
+      "team": "Solo developer; a university project being developed with commercial release as the intention.",
+      "vision": "Beyond Guilt is a first-person courtroom management game in which the player serves as the Judge of the Afterlife. Each day, five criminal souls stand trial; the player investigates, questions each soul, delivers a verdict, and assigns a punishment.",
+      "challenge": "Connect investigation and judgment with longer-term Hell management and changes in how future souls behave.",
+      "solution": "The GDD defines a cycle of reviewing Hell, investigating a case, questioning a soul, delivering a verdict, assigning punishment, and reviewing the day’s consequences. Planned systems include facility state, judge reputation, and soul adaptation.",
+      "outcome": "Ongoing Unity 6 (URP) project. The design document describes intended systems and plans; it does not by itself verify which systems are already implemented.",
+      "lessons": [
+        "A case study should distinguish the designed experience from implemented and tested features.",
+        "The core loop connects individual moral decisions to longer-term simulation consequences."
+      ],
+      "contribution": "Solo development, game design, and implementation in Unity 6 (URP). Specific completed mechanics can be added as they are verified in the build.",
+      "results": "In development. The project is intended for commercial release; no release or playtest results are claimed here.",
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Every verdict changes more than one life."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Beyond Guilt is my ongoing solo project in Unity 6 (URP). It is also a university project, but I am developing it with the intention of releasing it commercially. The player takes the role of the Judge of the Afterlife, deciding the fate of criminal souls while managing the long-term state of Hell."
+        },
+        {
+          "type": "stat-grid",
+          "spacing": 24,
+          "reveal": "fade",
+          "items": [
+            {
+              "label": "Engine",
+              "value": "Unity 6",
+              "context": "URP / C# per GDD"
+            },
+            {
+              "label": "Perspective",
+              "value": "First person",
+              "context": "Limited rotation in GDD"
+            },
+            {
+              "label": "Development",
+              "value": "Ongoing",
+              "context": "Solo project"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The daily gameplay loop"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The design document describes each in-game day as five criminal cases. The player reviews Hell’s current condition, investigates evidence, questions a soul, delivers a verdict, assigns a punishment, and then reviews the consequences at the end of the day."
+        },
+        {
+          "type": "flowchart",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "Daily case loop",
+          "steps": [
+            "Review Hell overview",
+            "Investigate the case",
+            "Question the soul",
+            "Deliver a verdict",
+            "Assign punishment",
+            "Repeat for five cases",
+            "Review daily report"
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Four core design pillars"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The GDD organizes the game around Investigation, Judgment, Hell Management, and Adaptive Souls. Investigation is about finding the truth; judgment asks the player to decide what is fair; Hell management makes sentencing affect the wider system; and adaptive souls are intended to respond to the Judge’s reputation and past decisions."
+        },
+        {
+          "type": "carousel",
+          "spacing": 24,
+          "reveal": "fade",
+          "eyebrow": "Concept reference",
+          "heading": "Visual reference from the current design document",
+          "images": [
+            {
+              "src": "assets/images/BeyondGuilt/beyond-guilt-concept.jpg",
+              "alt": "Beyond Guilt courtroom concept image from GDD",
+              "caption": "Courtroom concept image from the GDD"
+            }
+          ],
+          "imageHeight": 520,
+          "fit": "contain",
+          "showArrows": true,
+          "showDots": true,
+          "showCaptions": true
+        },
+        {
+          "type": "design-note",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "Planned mechanics are labelled as design intent",
+          "text": "The GDD outlines facilities, reputation, soul adaptation, daily reports, and multiple endings. These are presented as designed systems, not as claims that every feature is already implemented.",
+          "takeaway": "The project is ongoing; the case study can be expanded with in-engine screenshots as implementation progresses."
+        },
+        {
+          "type": "button",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "View the game design document",
+          "url": "assets/docs/BeyondGuilt-GDD.pdf",
+          "variant": "outline"
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Development status"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Beyond Guilt is being developed alongside Lab-1995. The current design direction is documented in the GDD; this portfolio page separates design goals from implementation progress as the project evolves."
+        }
+      ]
+    },
+    {
+      "id": "abandoned-temple",
+      "title": "Abandoned Temple",
+      "tagline": "A two-hour level-prototyping exercise focused on a clear vista and a readable golden path.",
+      "cover": "assets/images/AbandonedTemple/abandoned-temple-topdown.jpg",
+      "banner": {
+        "src": "assets/images/AbandonedTemple/abandoned-temple-topdown.jpg",
+        "alt": "Top-down view of the Abandoned Temple level prototype with route annotations",
+        "height": 520,
+        "scale": 100,
+        "fit": "contain",
+        "position": "center"
+      },
+      "genre": "Level Design / Environment Prototype",
+      "role": "Level Designer",
+      "engine": "",
+      "duration": "Under 2 hours",
+      "platform": "Academic prototype",
+      "cat": "level",
+      "categories": [
+        "Level Design",
+        "Rapid Prototyping",
+        "Academic Exercise"
+      ],
+      "tags": [
+        "Level Design",
+        "Golden Path",
+        "Vista",
+        "Rapid Prototyping"
+      ],
+      "status": "Completed exercise",
+      "year": "Academic exercise",
+      "team": "Individual level-prototyping task assigned by professor.",
+      "contribution": "Created a level from a given set of elements, with a clear vista and a golden path, within the two-hour time limit.",
+      "results": "Completed the prototype in under two hours. No playtest or usability outcome is claimed.",
+      "vision": "Create a readable temple level using the supplied elements, with a clear vista and a golden path.",
+      "challenge": "The brief was to assemble a level from the provided elements and make the intended route and visual destination legible.",
+      "solution": "Used the given environment pieces to shape a central space, a route through it, and a visible focal point. The top-down image includes route annotations that make the intended path easier to discuss.",
+      "outcome": "A level prototype completed in under two hours, documented with a top-down layout and a short gameplay video.",
+      "lessons": [
+        "A clear vista can orient the player before they reach the destination.",
+        "A golden path should guide without making the space feel like a featureless corridor.",
+        "Time-boxed prototyping makes layout priorities and trade-offs visible."
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "A level prototype built in under two hours."
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Abandoned Temple was a speed level-prototyping task assigned by my professor. The brief was to create a level from a supplied set of elements, with a clear vista and a golden path. I completed the prototype in under two hours."
+        },
+        {
+          "type": "stat-grid",
+          "spacing": 24,
+          "reveal": "fade",
+          "items": [
+            {
+              "label": "Time",
+              "value": "<2 hours",
+              "context": "Prototype completed"
+            },
+            {
+              "label": "Brief",
+              "value": "Vista",
+              "context": "Clear visual destination"
+            },
+            {
+              "label": "Pathing",
+              "value": "Golden path",
+              "context": "Readable intended route"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Top-down route and composition"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The top-down view documents the overall layout and intended player route. The annotated lines and crosses are part of the planning image, helping explain the path through the central area and the points where movement or sightlines were being considered."
+        },
+        {
+          "type": "image",
+          "spacing": 24,
+          "reveal": "fade",
+          "src": "assets/images/AbandonedTemple/abandoned-temple-topdown.jpg",
+          "alt": "Top-down level layout with route annotations",
+          "caption": "Top-down layout and pathing notes"
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "Gameplay walkthrough"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "The short video shows the prototype from a player-facing perspective. It complements the top-down view: one communicates the layout, while the other helps communicate the experience of moving through the space."
+        },
+        {
+          "type": "video",
+          "spacing": 24,
+          "reveal": "fade",
+          "src": "assets/images/AbandonedTemple/abandoned-temple-gameplay.mp4",
+          "caption": "Gameplay walkthrough"
+        },
+        {
+          "type": "design-note",
+          "spacing": 24,
+          "reveal": "fade",
+          "title": "The brief drove the layout",
+          "text": "The goal was not to build a large finished environment. It was to use the supplied elements to establish a clear vista and a readable golden path under a strict time limit.",
+          "takeaway": "Completed in under two hours."
+        },
+        {
+          "type": "heading",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "What this exercise demonstrates"
+        },
+        {
+          "type": "paragraph",
+          "spacing": 24,
+          "reveal": "fade",
+          "text": "This prototype is a compact example of level-design thinking under constraints: identify the focal point, arrange the route, and communicate the intended flow before investing in a larger production pass."
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "texts": [],
+  "imp": {
+    "projects": true,
+    "projectsMigratedFromHtml": true,
+    "timeline": true,
+    "journal": true
+  },
+  "timeline": [
+    {
+      "date": "2025–2027",
+      "sortDate": "2025-01",
+      "type": "education",
+      "title": "Game development studies at Seamedu",
+      "description": "Seamedu is listed in the education section of my LinkedIn profile for 2025–2027. I continue to build practical experience through personal game and design projects.",
+      "tags": [
+        "Game Development",
+        "Learning"
+      ],
+      "url": "https://www.linkedin.com/in/advaitrege/",
+      "id": "timeline-seamedu-studies"
+    },
+    {
+      "date": "2025",
+      "sortDate": "2025-03",
+      "type": "project",
+      "title": "Four-Player Circular Chess prototype",
+      "description": "Designed a circular four-player board layout and built a physical prototype with handmade, color-coded pieces.",
+      "tags": [
+        "Board Game Design",
+        "Physical Prototyping"
+      ],
+      "url": "",
+      "id": "timeline-circular-chess"
+    },
+    {
+      "date": "Ongoing",
+      "sortDate": "2026-01",
+      "type": "milestone",
+      "title": "Lab-1995",
+      "description": "Developing a psychological-horror project in Unreal Engine 5 while building and refining gameplay, interaction, audio, and environmental storytelling systems.",
+      "tags": [
+        "Unreal Engine 5",
+        "Psychological Horror",
+        "Solo Development"
+      ],
+      "url": "",
+      "id": "timeline-lab-1995"
+    },
+    {
+      "date": "Date not listed",
+      "sortDate": "9999-12",
+      "type": "experience",
+      "title": "Game development experience at Xorbix Studios",
+      "description": "Game development experience at Xorbix Studios. The public LinkedIn preview does not show a date range, so none is assumed here.",
+      "tags": [
+        "Game Development"
+      ],
+      "url": "https://www.linkedin.com/in/advaitrege/",
+      "id": "timeline-xorbix-experience"
+    }
+  ],
+  "resume": {
+    "fileName": "resume.pdf",
+    "dataUrl": "",
+    "url": "",
+    "updatedAt": ""
+  },
+  "timelineLayout": "vertical"
+}

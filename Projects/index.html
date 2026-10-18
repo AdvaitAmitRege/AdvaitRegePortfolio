@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Game Design Journal</title>
+    <link rel="stylesheet" href="../css/new-style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="projects-index">
+    <!-- Animated background elements -->
+    <div class="background-elements">
+        <div class="element circle"></div>
+        <div class="element triangle"></div>
+        <div class="element square"></div>
+        <div class="element circle large"></div>
+        <div class="element triangle large"></div>
+        <div class="element square large"></div>
+    </div>
+
+    <!-- Interactive cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- Header with navigation -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo"><a href="/" class="logo-lockup"><span class="logo-text">Advait Rege</span><span class="logo-subtitle">Game Design Journal</span></a></div>
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="/" class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a href="/#about" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item"><a href="/#journal" class="nav-link">JOURNAL</a></li>
+                        <li class="nav-item"><a href="/#projects" class="nav-link active" aria-current="page">PROJECTS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" data-resume-download>DOWNLOAD RESUME</a></li>
+                        <li class="nav-item"><a href="/#contact" class="nav-link">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="section-header">
+                <h2 class="section-title">ALL PROJECTS</h2>
+                <div class="section-line"></div>
+            </div>
+            <!-- Category Selector: Unique Initializing Style -->
+            <div class="category-selector-init" data-project-filters aria-label="Search and filter projects">
+                <div class="init-title"><span class="init-dot"></span> Search the archive</div>
+                <p>Projects and categories are generated from the Studio data.</p>
+            </div>
+            <div class="projects-content">
+                <div class="project-grid" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Advait Rege. All rights reserved.</p>
+                <p>Designed and developed for thoughtful play.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/new-interactive.js"></script>
+    <script src="../js/scroll-fadein.js"></script>
+    <script src="../js/site-runtime.js"></script>
+</body>
+</html>
