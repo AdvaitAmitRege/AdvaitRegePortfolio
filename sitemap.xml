@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://advaitrege.design/</loc></url>
-  <url><loc>https://advaitrege.design/projects/</loc></url>
-  <url><loc>https://advaitrege.design/journal/</loc></url>
-  <url><loc>https://advaitrege.design/projects/abandoned-temple/</loc></url>
-  <url><loc>https://advaitrege.design/projects/beyond-guilt/</loc></url>
-  <url><loc>https://advaitrege.design/projects/four-player-circular-chess/</loc></url>
-  <url><loc>https://advaitrege.design/projects/fps-shooter/</loc></url>
-  <url><loc>https://advaitrege.design/projects/lab-1995/</loc></url>
-  <url><loc>https://advaitrege.design/projects/railway-simulator/</loc></url>
-  <url><loc>https://advaitrege.design/projects/the-fleshbound-curse/</loc></url>
-  <url><loc>https://advaitrege.design/projects/the-wrong-floor/</loc></url>
+  <url><loc>https://advaitrege.design/projects.html</loc></url>
+  <url><loc>https://advaitrege.design/journal.html</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=lab-1995</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=the-wrong-floor</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=four-player-circular-chess</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=railway-simulator</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=fps-shooter</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=the-fleshbound-curse</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=beyond-guilt</loc></url>
+  <url><loc>https://advaitrege.design/project.html?p=abandoned-temple</loc></url>
 </urlset>

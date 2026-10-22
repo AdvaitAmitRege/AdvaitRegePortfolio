@@ -1,17 +1,21 @@
-# GitHub Pages route fix
+# GitHub Pages routing fix (flat-file fallback)
 
-The original package contained both `Projects/` and `projects/`. These differ only by letter case, which can conflict on Windows filesystems and Git clients. That can prevent the lowercase `/projects/` route from being committed or deployed reliably.
+## Why this build changes routing
+The live site returns the custom 404 for `/projects/`, while the same project works through VS Code Live Server. That means the route being requested is not being served as expected by the deployed Pages build. The exact deployment setting/repository state cannot be verified from the screenshot alone. To remove the fragile dependency on directory routes, all public navigation now uses root-level files that the static host can serve directly.
 
-## Changes
-- The legacy source HTML and its stylesheet have been moved from `Projects/` to `legacy-project-pages/`.
-- The Studio `sourcePage` references and `project.html` stylesheet reference now point to the new lowercase-safe location.
-- `projects/index.html` now uses the same current archive markup as `projects.html`, with root-relative CSS and JavaScript references.
-- Individual project routes remain under lowercase `projects/<slug>/`.
+## Routes in this build
+- Project archive: `projects.html`
+- Project case studies: `project.html?p=<project-id>`
+- Journal: `journal.html`
+- Homepage: `index.html`
+
+The old `projects/<slug>/` redirect pages are retained for compatibility, but the website no longer depends on them for navigation. A `.nojekyll` marker is included so GitHub Pages serves the static folder tree without Jekyll processing conventions.
 
 ## Publish safely
-1. Extract this ZIP into a fresh folder (do not merge it over the old files).
-2. Copy the full extracted contents into the repository working tree.
-3. Confirm Git shows `projects/index.html` as a tracked/new file and `legacy-project-pages/` in place of `Projects/`.
-4. Commit and push.
-5. In GitHub, verify Pages has deployed the latest commit.
-6. Test `https://advaitrege.design/projects/` and `https://advaitrege.design/projects/lab-1995/`. If a cached 404 remains after deployment, hard-refresh or test in a private window.
+1. Download and extract this ZIP into a new folder.
+2. Back up the existing GitHub repository.
+3. Copy the complete contents of this folder into the repository root, including hidden files such as `.nojekyll`. Do not copy the ZIP itself into the repository.
+4. On Windows, verify the root contains `index.html`, `projects.html`, `project.html`, `js/`, `css/`, `data/`, `assets/`, and `.nojekyll`.
+5. Commit and push. Wait until **Settings → Pages** or the Actions deployment workflow reports success.
+6. Test `https://advaitrege.design/projects.html` and `https://advaitrege.design/project.html?p=lab-1995` first. These are the reliable routes in this build.
+7. If those root-level routes also show the custom 404, the deployed Pages source/branch or workflow is not publishing these root files; verify **Settings → Pages → Build and deployment → Source** and the latest deployment commit. Replacing site links alone cannot fix a deployment source mismatch.

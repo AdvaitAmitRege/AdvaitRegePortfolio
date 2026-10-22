@@ -27,7 +27,7 @@
     ? `<article class="journal-archive-entry sr-x"><div class="journal-entry-header"><span>${E(j.label)}</span><span>${E(j.date)}</span></div><h2>${E(j.title)}</h2><p>${E(j.excerpt)}</p><span class="journal-tag">${E(j.tag)}</span></article>`
     : `<article class="journal-entry sr-x"><div class="journal-entry-header"><span>${E(j.label)}</span><span>${E(j.date)}</span></div><h3>${E(j.title)}</h3><div class="journal-arrow">↓</div><p>${E(j.excerpt)}</p><span class="journal-tag">${E(j.tag)}</span><button class="journal-expand" type="button">READ MORE <span>+</span></button><div class="journal-expanded" hidden><p>${E(j.more || j.excerpt)}</p></div></article>`;
 
-  const link = p => R + 'projects/' + encodeURIComponent(p.id) + '/';
+  const link = p => R + 'project.html?p=' + encodeURIComponent(p.id);
   const card = p => {
     const categoryMap = {
       'lab-1995': ['Game Design'],
